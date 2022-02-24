@@ -1,6 +1,21 @@
 # Unity project recommendation guideline
 
-Rewrite of the juegostudio [publication.](https://www.juegostudio.com/blog/7-ways-to-keep-unity-project-organized-unity3d-best-practices)
+Rewrite of the juegostudio [publication](https://www.juegostudio.com/blog/7-ways-to-keep-unity-project-organized-unity3d-best-practices) and [this](https://github.com/stillwwater/UnityStyleGuide) naming convention.
+
+# Table of contents
+- Guideline
+    - [Introduction](#introduction)
+    - [Folder structure](#directory-or-folder-structure)
+    - [Scene hierarchy](#managing-the-scene-hierarchy-structure)
+    - [Version control systems](#get-familiar-with-version-control-systems-or-vcs)
+    - [Prefabs](#use-prefabs-more-frequently)
+    - [Editor scripts](#get-familiar-with-editor-scripts)
+    - [Defensive programming](#learn-and-implement-defensive-programming)
+    - [Editor cheats](#try-in-game-andor-in-editor-cheats)
+-  
+
+
+## Introduction
 
 App development is a cumbersome process. Everything should be well organized, otherwise introducing changes can be a hard job. The same goes for Unity3D app development. As developers move on with the development process, lines of code increases. And this expands the final magnitude of the project.
 
@@ -99,3 +114,4 @@ You can add the functionality of unlocking secret levels to the user or somethin
 * Give immortality to your character 
 * Do anything that helps you with testing.
 
+# Asset naming
