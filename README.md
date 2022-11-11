@@ -219,10 +219,12 @@ File extension: `PNG`, `TIFF` or `HDR`
 Choose either a `Specularity/Glossiness` or `Roughness/Metallic` workflow. This depends on the software being used and what your artists are more comfortable with. Specularity maps have the advantage of being having the possibility to be RGB maps instead of grayscale (useful for tinted metals), apart from that there is little difference between the result from either workflow.
 
 ### Texture Suffixes
+#### All of the textures must have a `Tex_` prefix.
+
 
 Suffix | Texture
 :------|:-----------------
-`_AL`  | Albedo
+`_D`  | Albedo/Diffuse
 `_SP`  | Specular
 `_R`   | Roughness
 `_MT`  | Metallic
@@ -230,7 +232,7 @@ Suffix | Texture
 `_N`   | Normal
 `_H`   | Height
 `_DP`  | Displacement
-`_EM`  | Emission
+`_E`  | Emission
 `_AO`  | Ambient Occlusion
 `_M`   | Mask
 
@@ -257,11 +259,11 @@ B       | Ambient Occlusion | Ambient Occlusion
 
 ## Configuration Files
 
-File extension: `INI`
+File extension: `JSON`
 
 Fast and easy to parse, clean and easy to tweak.
 
-`XML`, `JSON`, and `YAML` are also good alternatives, pick one and be consistent.
+`XML`, `INI`, and `YAML` are also good alternatives, pick one and be consistent.
 
 Use binary file formats for files that should not be changed by the player. For multiplayer games store configuration data on a secure server.
 
